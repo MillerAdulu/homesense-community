@@ -5,12 +5,15 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-
+    intrusions: []
   },
-  mutations: {
-
-  },
-  actions: {
-
+  getters: {
+    intrusions: (state) => {
+      const ints = state.intrusions.map((intru) => {
+        intru.parsed = JSON.parse(intru.homesense)
+        return intru
+      })
+      return ints
+    }
   }
 })
