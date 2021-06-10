@@ -8303,10 +8303,10 @@ vuetify-loader@^1.0.5:
   dependencies:
     loader-utils "^1.1.0"
 
-vuetify@^1.5.5:
-  version "1.5.6"
-  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-1.5.6.tgz#4f53bd061b3930391088fc2833d7b9ecf43fecf0"
-  integrity sha512-3cpuqCRZam6mpWZwq2M7aCFCFmE5qvu3vaq4MMXRYzJCTtOJ+nCxkDXuilNbjh/eKz/Pi95dQZOYXvccwq6rGA==
+vuetify@^1.5.24:
+  version "1.5.24"
+  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-1.5.24.tgz#d5cf6e7289570d5d05f8832a097cd435d36d37df"
+  integrity sha512-guFOgEgZ8VpSgNXOv1QL2fOliaJBoiyNnf+bBqcXsnIppJGRlW1wyT6Ux7ZlQyphSHs+UK1aJNUjcyAtoOiHWg==
 
 vuex@^3.0.1:
   version "3.1.0"
