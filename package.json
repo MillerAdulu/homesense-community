@@ -10,7 +10,7 @@
     "deploy": "yarn lint && yarn build && firebase deploy"
   },
   "dependencies": {
-    "firebase": "^5.9.0",
+    "firebase": "^5.11.1",
     "register-service-worker": "^1.6.2",
     "vue": "^2.6.6",
     "vue-router": "^3.0.1",
